@@ -7,7 +7,8 @@ Usage
 -----
 
  * Create clusters.txt with your cluster information
- * Update the work_dir in gen_common.sh with your working directory
+ * Update $workdir in gen_common.sh with your working directory
+ * Update the templates with any changes you desire (such as changing the vip interface)
  * Run gen_common.sh to generate the associated conf files in the working directory
 
 License
